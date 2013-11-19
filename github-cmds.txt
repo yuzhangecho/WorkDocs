@@ -26,6 +26,7 @@ git clone --no-hardlinks /path/to/repo
 git pull
 git push
 
+https://github.com/yuzhangecho/WorkDocs.git
 
 //Reset all the changes from the last commit
 
@@ -33,3 +34,10 @@ git diff
 git reset --hard
 git diff
 git status
+
+
+///////////////////////////////////////////////////////////////////////////////
+//Info webpage based 
+1. After select a project, when "Clone in Desktop", chrome triggers external app.
+2. In option, change default storage directory dir.
+3. Can manually delete the previous dir and after change, 
