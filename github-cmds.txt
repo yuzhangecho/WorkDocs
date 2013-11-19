@@ -1,0 +1,35 @@
+//Configure Git (one time only)
+
+git config --global user.name "Your Name"
+git config --global user.email "your_email@example.com"
+
+//Create a new repository
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/<your-user-name>/<project-name>.git
+git push -u origin master
+
+git add README.MD
+git commit
+git commit -m "My initial commit"
+git commit -a
+git log
+
+//Use an existing repository
+
+git clone https://github.com/WordPress/WordPress
+//Clone local repository (?)
+git clone --no-hardlinks /path/to/repo 
+git pull
+git push
+
+
+//Reset all the changes from the last commit
+
+git diff
+git reset --hard
+git diff
+git status
