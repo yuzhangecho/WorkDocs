@@ -1,0 +1,4 @@
+1. CBIR - Content-based image retrieval = query by image content (QBIC) = content-based visual information retrieval (CBVIR) 
+
+http://en.wikipedia.org/wiki/CBIR
+
