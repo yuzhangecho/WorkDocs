@@ -35,9 +35,33 @@ git reset --hard
 git diff
 git status
 
+//Fork egs: Push/Pull 
+
+git push origin master
+git fetch upstream
+git merge upstream/master
+
+//Branches
+
+git branch mybranch
+git checkout mybranch
+git checkout -b mybranch
+git checkout master
+git checkout mybranch
+git checkout master
+git merge mybranch
+git branch -d mybranch
+#delete the "mybranch" branch
+
+Webpage based triggers: GitHub
+Client Git GUI - ver(0.18.GITGUI)
 
 ///////////////////////////////////////////////////////////////////////////////
 //Info webpage based 
 1. After select a project, when "Clone in Desktop", chrome triggers external app.
 2. In option, change default storage directory dir.
-3. Can manually delete the previous dir and after change, 
+3. Can manually delete the previous dir and after change, can update to new dir. (step unclear)
+4. Public vs private
+
+////Links:
+https://help.github.com/articles/using-pull-requests
